@@ -38,12 +38,7 @@ cd travel-tracker
 npm install
 
 3. Set up environment variables
-Create a .env file in the root directory based on the provided .env_SAMPLE file:
-
-bash
-Copier
-Modifier
-cp .env_SAMPLE .env
+Create a .env file in the root directory based on the provided .env_SAMPLE file
 
 Fill in your PostgreSQL database credentials in the .env file.
 
@@ -52,10 +47,8 @@ Ensure PostgreSQL is running and create the database specified in your .env file
 You may also need to run a script to create the necessary table(s).
 
 5. Start the application
-bash
-Copier
-Modifier
-npm start
+[Optional] Install nodemon: npm i nodemon
+with your project path on the terminal, run: nodemon index.js or node index.js
 The app will be available at http://localhost:3000 ´´´
 
 📂 Project Structure
